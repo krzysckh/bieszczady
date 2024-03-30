@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>przystanki.kml</name>
+	<Style id="zn60">
+		<IconStyle>
+			<color>ff1d9bcd</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<Style id="zh60">
+		<IconStyle>
+			<color>ff1d9bcd</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="MapRollOver60">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#zn60</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#zh60</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Rozsypaniec - Krzemień</name>
+		<Placemark>
+			<name>1</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozsypaniec - Krzemień</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Ochrona ścisła, czynna i krajobrazowa w Bieszczadzkim Parku Narodowym</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=27&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/f2dab507ed275220a23ded781e512bc8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Rozsypaniec - Krzemień&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver60</styleUrl>
+			<Point>
+				<coordinates>22.7180961535,49.05734343320001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>27</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozsypaniec - Krzemień</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Kwieciste ziołorośla z pełnikiem alpejskim</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=27&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/f2dab507ed275220a23ded781e512bc8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Rozsypaniec - Krzemień&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver60</styleUrl>
+			<Point>
+				<coordinates>22.7327908722,49.0820960309,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>22</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozsypaniec - Krzemień</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozpadlisko grzbietowe</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=27&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/f2dab507ed275220a23ded781e512bc8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Rozsypaniec - Krzemień&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver60</styleUrl>
+			<Point>
+				<coordinates>22.7658563488,49.0784938317,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>12</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozsypaniec - Krzemień</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Zbiorowisko z mozgą trzcinowatą</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=27&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/f2dab507ed275220a23ded781e512bc8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Rozsypaniec - Krzemień&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver60</styleUrl>
+			<Point>
+				<coordinates>22.7706276691,49.0527982769,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozsypaniec - Krzemień</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wtórna sukcesja lasu</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=27&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/f2dab507ed275220a23ded781e512bc8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Rozsypaniec - Krzemień&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver60</styleUrl>
+			<Point>
+				<coordinates>22.7574101769,49.0519504254,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozsypaniec - Krzemień</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Przełęcze i szlaki dawnych pasterzy</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=27&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/f2dab507ed275220a23ded781e512bc8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Rozsypaniec - Krzemień&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver60</styleUrl>
+			<Point>
+				<coordinates>22.7192597199,49.0576683277,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozsypaniec - Krzemień</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Starodrzew bukowo-jaworowy</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=27&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/f2dab507ed275220a23ded781e512bc8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Rozsypaniec - Krzemień&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver60</styleUrl>
+			<Point>
+				<coordinates>22.7602872277,49.0585440035,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozsypaniec - Krzemień</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Potok górski i olszynka karpacka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=27&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/f2dab507ed275220a23ded781e512bc8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Rozsypaniec - Krzemień&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver60</styleUrl>
+			<Point>
+				<coordinates>22.7220231925,49.0574595074,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>9</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozsypaniec - Krzemień</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Roślinność wysoko położonej śródleśnej polany</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=27&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/f2dab507ed275220a23ded781e512bc8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Rozsypaniec - Krzemień&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver60</styleUrl>
+			<Point>
+				<coordinates>22.7613032668,49.0557172223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>21</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozsypaniec - Krzemień</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Roślinność ziołoroślowa w okopach z I wojny światowej</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=27&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/f2dab507ed275220a23ded781e512bc8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Rozsypaniec - Krzemień&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver60</styleUrl>
+			<Point>
+				<coordinates>22.7662152277,49.0776000152,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozsypaniec - Krzemień</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Traworośla wiechlinowo-śmiałkowe</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=27&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/f2dab507ed275220a23ded781e512bc8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Rozsypaniec - Krzemień&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver60</styleUrl>
+			<Point>
+				<coordinates>22.7686103254,49.0666072379,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozsypaniec - Krzemień</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Przydrożna polana z wiatą dla turystów</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=27&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/f2dab507ed275220a23ded781e512bc8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Rozsypaniec - Krzemień&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver60</styleUrl>
+			<Point>
+				<coordinates>22.7247977824,49.0565602535,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>11</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozsypaniec - Krzemień</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Buczyna karpacka z czosnkiem niedźwiedzim</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=27&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/f2dab507ed275220a23ded781e512bc8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Rozsypaniec - Krzemień&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver60</styleUrl>
+			<Point>
+				<coordinates>22.7649354816,49.05541055040001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>23</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozsypaniec - Krzemień</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Niedostępny szczyt Kopy Bukowskiej</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=27&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/f2dab507ed275220a23ded781e512bc8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Rozsypaniec - Krzemień&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver60</styleUrl>
+			<Point>
+				<coordinates>22.7561536613,49.08103005430001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozsypaniec - Krzemień</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Starorzecze z roślinnością wodną i swoistą fauną</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=27&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/f2dab507ed275220a23ded781e512bc8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Rozsypaniec - Krzemień&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver60</styleUrl>
+			<Point>
+				<coordinates>22.7315476183,49.0553653394,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>6</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozsypaniec - Krzemień</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Zlewnia potoku Wołosatki</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=27&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/f2dab507ed275220a23ded781e512bc8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Rozsypaniec - Krzemień&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver60</styleUrl>
+			<Point>
+				<coordinates>22.7370897121,49.0541759293,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>26</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozsypaniec - Krzemień</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Jelenie polany</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=27&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/f2dab507ed275220a23ded781e512bc8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Rozsypaniec - Krzemień&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver60</styleUrl>
+			<Point>
+				<coordinates>22.7437020441,49.0812348199,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>13</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozsypaniec - Krzemień</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Górna granica lasu</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=27&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/f2dab507ed275220a23ded781e512bc8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Rozsypaniec - Krzemień&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver60</styleUrl>
+			<Point>
+				<coordinates>22.7703985168,49.053685734,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>20</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozsypaniec - Krzemień</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wtórna sukcesja traworośli z trzcinnikiem owłosionym</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=27&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/f2dab507ed275220a23ded781e512bc8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Rozsypaniec - Krzemień&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver60</styleUrl>
+			<Point>
+				<coordinates>22.7672562902,49.07417457379999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>15</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozsypaniec - Krzemień</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Ostańce piaskowcowe na grzbietach połonin i rumowiska skalne</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=27&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/f2dab507ed275220a23ded781e512bc8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Rozsypaniec - Krzemień&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver60</styleUrl>
+			<Point>
+				<coordinates>22.7691501301,49.0558400855,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>16</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozsypaniec - Krzemień</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połoninowe bliźniczyska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=27&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/f2dab507ed275220a23ded781e512bc8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Rozsypaniec - Krzemień&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver60</styleUrl>
+			<Point>
+				<coordinates>22.770184884,49.0573754059,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozsypaniec - Krzemień</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Tajemniczy świat porostów</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=27&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/f2dab507ed275220a23ded781e512bc8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Rozsypaniec - Krzemień&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver60</styleUrl>
+			<Point>
+				<coordinates>22.739155673,49.05312353870001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>14</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozsypaniec - Krzemień</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Subalpejskie piętro połonin</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=27&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/f2dab507ed275220a23ded781e512bc8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Rozsypaniec - Krzemień&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver60</styleUrl>
+			<Point>
+				<coordinates>22.769544009,49.05498502299999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>19</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozsypaniec - Krzemień</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Szczyt Halicza</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=27&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/f2dab507ed275220a23ded781e512bc8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Rozsypaniec - Krzemień&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver60</styleUrl>
+			<Point>
+				<coordinates>22.7687986926,49.07210503870001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>25</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozsypaniec - Krzemień</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Borówczysko połoninowe z różą alpejską, na rumowisku skalnym</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=27&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/f2dab507ed275220a23ded781e512bc8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Rozsypaniec - Krzemień&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver60</styleUrl>
+			<Point>
+				<coordinates>22.7499622668,49.0796018902,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>24</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozsypaniec - Krzemień</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wilgotne zarośla olszy zielonej</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=27&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/f2dab507ed275220a23ded781e512bc8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Rozsypaniec - Krzemień&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver60</styleUrl>
+			<Point>
+				<coordinates>22.7535298058,49.0810005309,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>17</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozsypaniec - Krzemień</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Traworośla z trzcinnikiem leśnym</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=27&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/f2dab507ed275220a23ded781e512bc8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Rozsypaniec - Krzemień&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver60</styleUrl>
+			<Point>
+				<coordinates>22.7705759582,49.0614795973,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>28</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rozsypaniec - Krzemień</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Pożegnanie z Krzemieniem</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=27&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/f2dab507ed275220a23ded781e512bc8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Rozsypaniec - Krzemień&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver60</styleUrl>
+			<Point>
+				<coordinates>22.7305827628,49.0810851598,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

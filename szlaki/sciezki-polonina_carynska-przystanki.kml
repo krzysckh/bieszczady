@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>przystanki.kml</name>
+	<StyleMap id="msn_icon143">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon148</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon63</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_icon140">
+		<IconStyle>
+			<color>ff67b5f7</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_icon63">
+		<IconStyle>
+			<color>ff67b5f7</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_icon1419">
+		<IconStyle>
+			<color>ff67b5f7</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_icon140">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon1419</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon635</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_icon1418">
+		<IconStyle>
+			<color>ff67b5f7</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="MapRollOver40">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#zn40</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#zh40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_icon633">
+		<IconStyle>
+			<color>ff67b5f7</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="zn40">
+		<IconStyle>
+			<color>ff67b5f7</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_icon148">
+		<IconStyle>
+			<color>ff67b5f7</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_icon6317">
+		<IconStyle>
+			<color>ff7faaff</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_icon630">
+		<IconStyle>
+			<color>ff67b5f7</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_icon635">
+		<IconStyle>
+			<color>ff67b5f7</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_icon144">
+		<IconStyle>
+			<color>ff67b5f7</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_icon146">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon145</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon6316</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_icon1417">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon140</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon637</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_icon14">
+		<IconStyle>
+			<color>ff67b5f7</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_icon1416">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon144</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon630</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_icon636">
+		<IconStyle>
+			<color>ff67b5f7</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_icon14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon1418</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon633</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_icon1421">
+		<IconStyle>
+			<color>ff67b5f7</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_icon1415">
+		<IconStyle>
+			<color>ff7faaff</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_icon141">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon1415</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon6317</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_icon142">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon631</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_icon146">
+		<IconStyle>
+			<color>ff67b5f7</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_icon637">
+		<IconStyle>
+			<color>ff67b5f7</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="zh40">
+		<IconStyle>
+			<color>ff67b5f7</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_icon1418">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon1421</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon6314</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_icon631">
+		<IconStyle>
+			<color>ff67b5f7</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_icon6316">
+		<IconStyle>
+			<color>ff67b5f7</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_icon144">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon146</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon636</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_icon145">
+		<IconStyle>
+			<color>ff67b5f7</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_icon6314">
+		<IconStyle>
+			<color>ff67b5f7</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>Połonina Caryńska</name>
+		<Placemark>
+			<name>17B</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Polana zarastająca jałowcem</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon146</styleUrl>
+			<Point>
+				<coordinates>22.6372530948,49.14130677310001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>19B</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Dzieje łąk i pastwisk</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon144</styleUrl>
+			<Point>
+				<coordinates>22.6444998643,49.1523852145,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18B</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wieś Caryńskie</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon143</styleUrl>
+			<Point>
+				<coordinates>22.6414731729,49.1508339684,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>15B</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Buczyna ziołoroślowa i górna granica lasu</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon142</styleUrl>
+			<Point>
+				<coordinates>22.626969626,49.13258161689999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>22B</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Potok</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon1418</styleUrl>
+			<Point>
+				<coordinates>22.6507103839,49.1446103591,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>16B</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Buczyna kwaśna</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon1417</styleUrl>
+			<Point>
+				<coordinates>22.6312453682,49.1361089333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>21B</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Jawor</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon1416</styleUrl>
+			<Point>
+				<coordinates>22.6487840128,49.14670563640001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>20B</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Buczyna trawiasto-turzycowa</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon141</styleUrl>
+			<Point>
+				<coordinates>22.6491765401,49.14967435130001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>24B</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Potok Bystry i wieś Bereżki</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon140</styleUrl>
+			<Point>
+				<coordinates>22.6669147745,49.1414137145,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>23B</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Leszczyna</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon14</styleUrl>
+			<Point>
+				<coordinates>22.66056039560002,49.1414394411,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Rumowisko skalne i stary las</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.6377209464,49.1205878551,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>15</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Grechoty (gołoborza)</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.6138838838,49.13313269499999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>12</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Górna granica lasu</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.6376045049,49.12317462859999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>22</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Jałowczysko zarastające polanę</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.5832567627,49.13806186299999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18A</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Górna granica lasu</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.6033341377,49.1339227262,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>21A</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Torfowisko niskie</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.5943108604,49.1284847419,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>16</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wpływ ukształtowania i geologii stoku na zróżnicowanie zbiorowisk połoninowych</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.6074052198,49.13557923009999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Olszynka bagienna</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.6445546768,49.1056563551,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>6</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Sztuczna świerczyna</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.643126587,49.10997543720001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>21</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">ródlisko</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.5860949541,49.13866982779999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Czy mamy w Bieszczadach lasy pierwotne?</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.64094636820001,49.1132810817,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Ziołorośla i szuwary turzycowe</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.6420997589,49.1052030778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>20A</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Zarastające borówczysko</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.5991013643,49.1314978083,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>23A</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Ślady dawnej wsi</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.5926754776,49.125900945,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Brzeg Rzeczycy - olszynka karpacka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.6462770518,49.1058847379,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Żyzna buczyna</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.6395791299,49.1146148122,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Olszyna porolna</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.6410275245,49.1060038434,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>27</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wieś Berehy Górne i cmentarz</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.5698929385,49.1408155739,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>26</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Buczyna typowaą-ąmotyle żyjące w buczynach</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.5737094033,49.1391757262,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>19A</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Buczyna kwaśna na stromym zboczu</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.6026473135,49.1334585739,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>25</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Potok</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.5754304033,49.1383218551,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>11</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Buczyna czosnkowa</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.63767652450001,49.1227870036,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>17</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Ostaniec na grzbiecie połoniny</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.6029741377,49.13835982,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>24</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Porównanie trzech buczyn</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.5763225283,49.1382554567,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>20</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Ochrona zbiorowisk nieleśnych w Bieszczadzkim Parku Narodowym</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.5895563291,49.1385554176,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>17A</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Regeneracja zbiorowisk połoninowych na dawnym szlaku i sztandarowe formy świerka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.6040838448,49.1350081989,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Różne oblicza buczyny</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.6426542432,49.1081313668,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>22A</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Psiara na suchym zboczu</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.5935647315,49.1271448864,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Panorama ze szczytu Połoniny Caryńskiej, zróżnicowanie roślinności naskalnej</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.6013503252,49.13895259730001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>14</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Panorama ze szczytu i ochrona muraw alpejskich</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.6248301182,49.1300980661,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>13</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Różnorodność zbiorowisk połoninowych i ich sezonowa zmienność</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.629754751,49.1268781286,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>24A</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Odsłonięcieą-ąbudowa fliszu karpackiego</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.59110140330001,49.1241657848,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>19</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Ziołorośle ze szczawiem alpejskim i źródełko</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.5975868565,49.1398366989,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>9</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Zarastająca polana</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.6378560948,49.1171795153,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>23</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Caryńska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Bogactwo gatunków na zarastającej polanie</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=23&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/50b0e0c1e12d6a5b6f0031da431a32fc.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Caryńska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver40</styleUrl>
+			<Point>
+				<coordinates>22.5793690205,49.1380515661,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

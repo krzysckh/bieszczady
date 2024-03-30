@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>przystanki.kml</name>
+	<Style id="sn_icon1414">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_icon63000">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_icon63140">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_icon1460">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon1400</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon639</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="zh70">
+		<IconStyle>
+			<color>ff8ce6f0</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_icon6370">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_icon143">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_icon1420">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon1413</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon6312</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_icon6320">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_icon1411">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon1412</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon63110</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_icon6330">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_icon1450">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_icon1470">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon143</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon6360</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_icon14400">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_icon1440">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_icon147">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon1440</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon6313</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="MapRollOver70">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#zn70</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#zh70</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_icon147">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<Style id="zn70">
+		<IconStyle>
+			<color>ff8ce6f0</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_icon1430">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon1411</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon634</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_icon6312">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_icon1400">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_icon14100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon1480</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon6350</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_icon639">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_icon63110">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_icon14130">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon1420</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon6330</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_icon6350">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_icon1440">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon1414</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon6315</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_icon1480">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_icon149">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_icon14110">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_icon1420">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_icon1460">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_icon6360">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_icon1400">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon1450</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon638</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_icon6315">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_icon6313">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_icon148">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon1460</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon63000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_icon1450">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon14400</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon63100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_icon63100">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_icon1411">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_icon149">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon149</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon63140</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_icon1413">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon1410</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon6370</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_icon634">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_icon1412">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_icon1413">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_icon1410">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_icon6310">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_icon638">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_icon1412">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon14110</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon6320</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_icon1414">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon147</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon6310</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Suche Rzeki - Smerek</name>
+		<Placemark>
+			<name>15</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Suche Rzeki - Smerek</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Zbiorowisko z panującą turzycą drżączkowatą Carex brizoides</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=21&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1"> <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/5737d35c6b853dc4131e06ad3978b4f8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Suche Rzeki-Smerek&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon1470</styleUrl>
+			<Point>
+				<coordinates>22.4924783017,49.18366133180001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>13</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Suche Rzeki - Smerek</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Nisza źródliskowa</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=21&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1"> <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/5737d35c6b853dc4131e06ad3978b4f8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Suche Rzeki-Smerek&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon147</styleUrl>
+			<Point>
+				<coordinates>22.4956254931,49.1825639997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Suche Rzeki - Smerek</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Ekosystem potoku górskiego</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=21&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1"> <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/5737d35c6b853dc4131e06ad3978b4f8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Suche Rzeki-Smerek&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon1460</styleUrl>
+			<Point>
+				<coordinates>22.5249170244,49.2014844294,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>9</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Suche Rzeki - Smerek</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Poznajemy sztuczny drzewostan modrzewiowo - świerkowy</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=21&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1"> <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/5737d35c6b853dc4131e06ad3978b4f8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Suche Rzeki-Smerek&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon1450</styleUrl>
+			<Point>
+				<coordinates>22.5091283837,49.1888255427,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Suche Rzeki - Smerek</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Buczyna karpacka Fagetum carpaticum</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=21&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1"> <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/5737d35c6b853dc4131e06ad3978b4f8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Suche Rzeki-Smerek&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon1440</styleUrl>
+			<Point>
+				<coordinates>22.5118469775,49.1899540544,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Suche Rzeki - Smerek</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Śródleśna młaka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=21&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1"> <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/5737d35c6b853dc4131e06ad3978b4f8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Suche Rzeki-Smerek&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon1430</styleUrl>
+			<Point>
+				<coordinates>22.5098602001,49.1895364685,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>17</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Suche Rzeki - Smerek</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Przełęcz Orłowicza - murawa alpejska, rusztowy układ grzbietów i kratowy potoków</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=21&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1"> <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/5737d35c6b853dc4131e06ad3978b4f8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Suche Rzeki-Smerek&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver70</styleUrl>
+			<Point>
+				<coordinates>22.49195129,49.1806973982,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Suche Rzeki - Smerek</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Poznajemy mieszkańców oczka wodnego</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=21&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1"> <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/5737d35c6b853dc4131e06ad3978b4f8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Suche Rzeki-Smerek&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon1400</styleUrl>
+			<Point>
+				<coordinates>22.52386629,49.20142787860001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Suche Rzeki - Smerek</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Poznajemy niektóre zbiorowiska połoninowe</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=21&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1"> <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/5737d35c6b853dc4131e06ad3978b4f8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Suche Rzeki-Smerek&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver70</styleUrl>
+			<Point>
+				<coordinates>22.4868150673,49.18318793720001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Suche Rzeki - Smerek</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Poznajmy różnice pomiędzy zbiorowiskiem olszynki karpackiej a olszyną na gruntach porolnych</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=21&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1"> <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/5737d35c6b853dc4131e06ad3978b4f8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Suche Rzeki-Smerek&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon1411</styleUrl>
+			<Point>
+				<coordinates>22.5152606337,49.1959578318,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>6</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Suche Rzeki - Smerek</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wilgociolubne zbiorowisko łąkowe</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=21&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1"> <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/5737d35c6b853dc4131e06ad3978b4f8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Suche Rzeki-Smerek&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon14130</styleUrl>
+			<Point>
+				<coordinates>22.5140004384,49.19086136300001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>14</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Suche Rzeki - Smerek</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Buczyna karpacka z czosnkiem niedźwiedzim - Fagetum allietosum ursini</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=21&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1"> <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/5737d35c6b853dc4131e06ad3978b4f8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Suche Rzeki-Smerek&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon14100</styleUrl>
+			<Point>
+				<coordinates>22.4948511259,49.18289600360001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>11</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Suche Rzeki - Smerek</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Kwaśna buczyna Luzulo nemorosae -Fagetum</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=21&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1"> <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/5737d35c6b853dc4131e06ad3978b4f8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Suche Rzeki-Smerek&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon148</styleUrl>
+			<Point>
+				<coordinates>22.4978734853,49.1842756794,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>12</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Suche Rzeki - Smerek</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Śródleśna polanka przy górnej granicy lasu</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=21&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1"> <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/5737d35c6b853dc4131e06ad3978b4f8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Suche Rzeki-Smerek&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon149</styleUrl>
+			<Point>
+				<coordinates>22.4976169384,49.1832718786,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Suche Rzeki - Smerek</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Leśna droga</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=21&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1"> <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/5737d35c6b853dc4131e06ad3978b4f8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Suche Rzeki-Smerek&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon1420</styleUrl>
+			<Point>
+				<coordinates>22.5059761845,49.1877196599,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Suche Rzeki - Smerek</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Poznajemy wymagania siedliskowe buka i jodły Dolina wciosowa potoku górskiego</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=21&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1"> <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/5737d35c6b853dc4131e06ad3978b4f8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Suche Rzeki-Smerek&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon1414</styleUrl>
+			<Point>
+				<coordinates>22.5179095361,49.1974222927,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Suche Rzeki - Smerek</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Olszynka karpacka Alnetum incanae Działalność potoku górskiego</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=21&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1"> <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/5737d35c6b853dc4131e06ad3978b4f8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Suche Rzeki-Smerek&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon1413</styleUrl>
+			<Point>
+				<coordinates>22.5182793447,49.1982538669,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>16</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Suche Rzeki - Smerek</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Górna granica lasu</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=21&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1"> <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/5737d35c6b853dc4131e06ad3978b4f8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Suche Rzeki-Smerek&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon1412</styleUrl>
+			<Point>
+				<coordinates>22.4895750361,49.18384097240001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>19</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Suche Rzeki - Smerek</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Roślinność naskalna; Ptaki połonin</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=21&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1"> <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/5737d35c6b853dc4131e06ad3978b4f8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Suche Rzeki-Smerek&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver70</styleUrl>
+			<Point>
+				<coordinates>22.4821761728,49.1849715388,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>20</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Suche Rzeki - Smerek</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Budowa geologiczna i rzeźba kulminacji Smereka (panoramy)</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=21&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1"> <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/5737d35c6b853dc4131e06ad3978b4f8.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Suche Rzeki-Smerek&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver70</styleUrl>
+			<Point>
+				<coordinates>22.4784038954,49.1855896169,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

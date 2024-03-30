@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>przystanki.kml</name>
+	<StyleMap id="MapRollOver20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#zn20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#zh20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="zn20">
+		<IconStyle>
+			<color>ff00d7ff</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<Style id="zh20">
+		<IconStyle>
+			<color>ff00d7ff</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>Bukowe Berdo</name>
+		<Placemark>
+			<name>1A</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Bukowe Berdo</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Czatownie dla ptaków drapieżnych</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=28&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/bba5dd7b947e4cc3668759c6027fda0a.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Bukowe Berdo&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver20</styleUrl>
+			<Point>
+				<coordinates>22.7429985011,49.1287860544,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5A</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Bukowe Berdo</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Świerk i buk w bieszczadzkich lasach</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=28&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/bba5dd7b947e4cc3668759c6027fda0a.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Bukowe Berdo&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver20</styleUrl>
+			<Point>
+				<coordinates>22.7281330832,49.11743633169999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>16</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Bukowe Berdo</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Panorama spod szczytu Bukowego Berda w kierunku zachodnim</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=28&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/bba5dd7b947e4cc3668759c6027fda0a.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Bukowe Berdo&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver20</styleUrl>
+			<Point>
+				<coordinates>22.7373520558,49.095836777,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Bukowe Berdo</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Dolina potoku Wołosaty</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=28&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/bba5dd7b947e4cc3668759c6027fda0a.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Bukowe Berdo&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver20</styleUrl>
+			<Point>
+				<coordinates>22.6846833331,49.1511023317,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>17</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Bukowe Berdo</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Borówczysko bażynowe</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=28&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/bba5dd7b947e4cc3668759c6027fda0a.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Bukowe Berdo&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver20</styleUrl>
+			<Point>
+				<coordinates>22.7382884425,49.09504583169999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Bukowe Berdo</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Zabezpieczenia na szlakach i panorama w kierunku wschodnim</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=28&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/bba5dd7b947e4cc3668759c6027fda0a.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Bukowe Berdo&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver20</styleUrl>
+			<Point>
+				<coordinates>22.7409349425,49.0923684449,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>6</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Bukowe Berdo</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Sukcesja roślinności leśnej na polanie</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=28&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/bba5dd7b947e4cc3668759c6027fda0a.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Bukowe Berdo&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver20</styleUrl>
+			<Point>
+				<coordinates>22.6991858878,49.12580911290001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>6A</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Bukowe Berdo</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Górna granica lasu i ziororośla</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=28&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/bba5dd7b947e4cc3668759c6027fda0a.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Bukowe Berdo&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver20</styleUrl>
+			<Point>
+				<coordinates>22.7248465011,49.1103339997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Bukowe Berdo</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Sztuczna świerczyna i żubrowisko</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=28&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/bba5dd7b947e4cc3668759c6027fda0a.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Bukowe Berdo&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver20</styleUrl>
+			<Point>
+				<coordinates>22.7023978331,49.123627277,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Bukowe Berdo</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Krzywulcowe formy buka na górnej granicy lasu</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=28&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/bba5dd7b947e4cc3668759c6027fda0a.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Bukowe Berdo&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver20</styleUrl>
+			<Point>
+				<coordinates>22.7113817238,49.1181313903,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Bukowe Berdo</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Młaka śródleśna</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=28&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/bba5dd7b947e4cc3668759c6027fda0a.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Bukowe Berdo&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver20</styleUrl>
+			<Point>
+				<coordinates>22.6935233878,49.130814113,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2A</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Bukowe Berdo</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Szkółka leśna</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=28&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/bba5dd7b947e4cc3668759c6027fda0a.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Bukowe Berdo&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver20</styleUrl>
+			<Point>
+				<coordinates>22.7401218332,49.1273951676,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>9</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Bukowe Berdo</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Historia i różnorodność połonin</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=28&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/bba5dd7b947e4cc3668759c6027fda0a.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Bukowe Berdo&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver20</styleUrl>
+			<Point>
+				<coordinates>22.7118165011,49.11486416759999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4A</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Bukowe Berdo</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Życie drzewa i życie lasu - procesy kształtujące postać lasu bukowego</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=28&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/bba5dd7b947e4cc3668759c6027fda0a.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Bukowe Berdo&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver20</styleUrl>
+			<Point>
+				<coordinates>22.7290044152,49.1190352497,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Bukowe Berdo</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Buczyna karpacka z dużym udziałem jodły</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=28&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/bba5dd7b947e4cc3668759c6027fda0a.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Bukowe Berdo&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver20</styleUrl>
+			<Point>
+				<coordinates>22.68390927840001,49.144206445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Bukowe Berdo</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Karły świerkowe</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=28&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/bba5dd7b947e4cc3668759c6027fda0a.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Bukowe Berdo&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver20</styleUrl>
+			<Point>
+				<coordinates>22.7173147785,49.1116447223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>11</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Bukowe Berdo</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wsie w dolinie Sanu (rozwidlenie szlaków)</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=28&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/bba5dd7b947e4cc3668759c6027fda0a.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Bukowe Berdo&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver20</styleUrl>
+			<Point>
+				<coordinates>22.7220445558,49.109217277,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>12</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Bukowe Berdo</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Budowa geologiczna Bukowego Berda</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=28&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/bba5dd7b947e4cc3668759c6027fda0a.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Bukowe Berdo&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver20</styleUrl>
+			<Point>
+				<coordinates>22.7242010011,49.1062538903,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Bukowe Berdo</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Porównanie jaworzyny górskiej miesiącznicowej i buczyny karpackiej w podzespole miesiącznicowym</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=28&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/bba5dd7b947e4cc3668759c6027fda0a.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Bukowe Berdo&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver20</styleUrl>
+			<Point>
+				<coordinates>22.6983775558,49.1268850544,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>13</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Bukowe Berdo</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połoninowe zarośla jarzębinowe</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=28&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/bba5dd7b947e4cc3668759c6027fda0a.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Bukowe Berdo&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver20</styleUrl>
+			<Point>
+				<coordinates>22.7297496652,49.102558277,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Bukowe Berdo</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Grzbiet jako ostra granica siedlisk i zbiorowisk roślinnych</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=28&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/bba5dd7b947e4cc3668759c6027fda0a.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Bukowe Berdo&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver20</styleUrl>
+			<Point>
+				<coordinates>22.6799308019,49.135941738,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>14</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Bukowe Berdo</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Roślinność naskalna</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=28&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/bba5dd7b947e4cc3668759c6027fda0a.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Bukowe Berdo&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver20</styleUrl>
+			<Point>
+				<coordinates>22.7338547785,49.099224945,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>15</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Bukowe Berdo</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Różnorodność form skalnych</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=28&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/bba5dd7b947e4cc3668759c6027fda0a.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Bukowe Berdo&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver20</styleUrl>
+			<Point>
+				<coordinates>22.7360542238,49.09711377699999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3A</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Bukowe Berdo</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Lasy przedplonowe i ich przebudowa</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=28&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/bba5dd7b947e4cc3668759c6027fda0a.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Bukowe Berdo&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver20</styleUrl>
+			<Point>
+				<coordinates>22.7362410832,49.1244064997,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

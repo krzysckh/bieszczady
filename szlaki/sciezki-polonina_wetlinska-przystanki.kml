@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>przystanki.kml</name>
+	<Style id="sh_icon6361">
+		<IconStyle>
+			<color>ff95c3ce</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_icon6300">
+		<IconStyle>
+			<color>ff95c3ce</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_icon145">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon141</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon6361</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_icon1421">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon1417</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon632</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="MapRollOver50">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#zn50</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#zh50</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_icon141">
+		<IconStyle>
+			<color>ff95c3ce</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_icon142">
+		<IconStyle>
+			<color>ff95c3ce</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_icon1416">
+		<IconStyle>
+			<color>ff95c3ce</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_icon632">
+		<IconStyle>
+			<color>ff95c3ce</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_icon6311">
+		<IconStyle>
+			<color>ff95c3ce</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_icon1461">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon142</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon6331</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_icon1417">
+		<IconStyle>
+			<color>ff95c3ce</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<Style id="zn50">
+		<IconStyle>
+			<color>ff95c3ce</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_icon1415">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon1416</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon6311</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_icon6331">
+		<IconStyle>
+			<color>ff95c3ce</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="zh50">
+		<IconStyle>
+			<color>ff95c3ce</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_icon1410">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon14150</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon6300</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_icon14150">
+		<IconStyle>
+			<color>ff95c3ce</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Połonina Wetlińska</name>
+		<Placemark>
+			<name>22</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Buczyna z popastwiskowymi formami drzew</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon1461</styleUrl>
+			<Point>
+				<coordinates>22.48299104491006,49.17106368419745,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Buczyna kwaśna z trzcinnikiem</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon145</styleUrl>
+			<Point>
+				<coordinates>22.49085726240532,49.17678627815639,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>20</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Buczyna paprociowa</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon1421</styleUrl>
+			<Point>
+				<coordinates>22.48520892746777,49.17241114491274,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>19</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Skałka ostańcowa Fragment starodrzewia w stanie rozkładu</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon1415</styleUrl>
+			<Point>
+				<coordinates>22.49050225108804,49.17493317231161,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>24</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Granica Bieszczadzkiego Parku Narodowego</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#msn_icon1410</styleUrl>
+			<Point>
+				<coordinates>22.47507597212467,49.16884335852038,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3B</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Potok górski</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.5368966025,49.1505387575,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5A</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Flora lasu bukowego</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.550055458,49.1527495075,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1A</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Pomnik poety Jerzego Harasymowicza</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.5480943291,49.1419946872,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>21</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Świerczyny</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.4848182939,49.1715576052,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Carynka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.5555743291,49.15172903090001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Berehy Górne</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.5671655049,49.1417068942,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1B</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Obserwacje ptaków w obrębie zabudowań</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.5223264306,49.1487696911,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>14</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Jaworzyna i buczyna ziołoroślowa</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.5102434111,49.1756678708,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>9</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Traworośla z trzcinnikiem leśnym</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.5485846572,49.1591529294,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>23</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Olszyna porolna</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.478634122,49.1705123317,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2A</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Drzewostan świerkowo-modrzewiowy na gruntach porolnych</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.5496783799,49.1474449997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Ślady gospodarki rolnej i pasterskiej</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.5643171689,49.1442928161,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2B</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Polany u podnóża Połoniny</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.53218492670001,49.151672613,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>13</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Naturalne zarośla połoninowe na Hnatowym Berdzie</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.5180733251,49.1694602653,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Panorama gór - historia a przyroda</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.558364251,49.14864339810001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3A</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Łąka mietlicowa i pastwisko bliźniczkowe (psiara) - flora i fauna łąk</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.5500058603,49.1481877028,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Schronisko</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.55106979390001,49.15803396839999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Budowa geologiczna i historia fliszu karpackiego</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.5553768642,49.1538722536,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7A</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Ziołorośla połoninowe z pełnikiem alpejskim</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.546832372,49.15776053880001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>6A</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Żyzna buczyna karpacka z czosnkiem niedźwiedzim</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.5470142041,49.1553563278,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4A</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Zwierzęta lasu bukowego</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.5514293721,49.1511486833,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Buczyna czosnkowa</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.5564775752,49.1496270622,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>6</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Górna granica lasu dawniej i dziś</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.555460376,49.152683152,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>15</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Przełęcz Orłowicza</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.4919592431,49.18066562469999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>12</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Jak powstają grechoty?</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.5232188408,49.1660845622,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>16</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połoniny dawniej i dziś</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.4915262782,49.179240863,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>17</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Carynka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.4909845087,49.1776545622,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>11</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Borówczysko na rumowisku skalnym</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.5266234033,49.16598807,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Połonina Wetlińska</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Traworośla ze śmiałkiem darniowym</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"> <a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=25&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/25ad4a6f11ddf8a062ec2fbbdc65deb9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Połonina Wetlińska&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver50</styleUrl>
+			<Point>
+				<coordinates>22.5411131963,49.1616297536,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

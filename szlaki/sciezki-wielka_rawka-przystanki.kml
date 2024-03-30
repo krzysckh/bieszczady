@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>przystanki.kml</name>
+	<StyleMap id="MapRollOver30">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#zn30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#zh30</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="zh30">
+		<IconStyle>
+			<color>ff6bb7bd</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="zn11">
+		<IconStyle>
+			<color>ff0096ac</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="MapRollOver11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#zn11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#zh11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="zh11">
+		<IconStyle>
+			<color>ff0096ac</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal3/icon63.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="zn30">
+		<IconStyle>
+			<color>ff6bb7bd</color>
+			<Icon>
+				<href>http://www.bdpn.pl/images/przystanek.png</href>
+				<scale>0.5</scale>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffca95</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Wielka Rawka</name>
+		<Folder>
+			<name>Wielka Rawka</name>
+			<open>1</open>
+			<Placemark>
+				<name>43A</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Dział-Wetlina</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wetlina dawniej i dziś</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+				<styleUrl>#MapRollOver30</styleUrl>
+				<Point>
+					<coordinates>22.4895989423,49.143150613,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>42A</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Dział-Wetlina</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Sztuczny drzewostan świerkowy, lasy na gruntach porolnych</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+				<styleUrl>#MapRollOver30</styleUrl>
+				<Point>
+					<coordinates>22.4931550009,49.1410946833,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>40A</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Dział-Wetlina</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Potok górski</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+				<styleUrl>#MapRollOver30</styleUrl>
+				<Point>
+					<coordinates>22.4974075751,49.1362681637,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>37A</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Dział-Wetlina</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Carynki</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+				<styleUrl>#MapRollOver30</styleUrl>
+				<Point>
+					<coordinates>22.5381946572,49.12545204260001,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>38A</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Dział-Wetlina</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Buczyna kwaśna z kosmatką olbrzymią</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+				<styleUrl>#MapRollOver30</styleUrl>
+				<Point>
+					<coordinates>22.5325335908,49.1271954919,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>41A</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Dział-Wetlina</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Roślinność wilgociolubna</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+				<styleUrl>#MapRollOver30</styleUrl>
+				<Point>
+					<coordinates>22.4969828017,49.13856487470001,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>39A</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Dział-Wetlina</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Panorama gór</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+				<styleUrl>#MapRollOver30</styleUrl>
+				<Point>
+					<coordinates>22.5211143486,49.1281342497,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>36A</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Dział-Wetlina</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Lasy ostoją puszczańskiej zwierzyny</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+				<styleUrl>#MapRollOver30</styleUrl>
+				<Point>
+					<coordinates>22.5509787783,49.12142492939999,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>35A</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Dział-Wetlina</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Buczyna krzywulcowa</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+				<styleUrl>#MapRollOver30</styleUrl>
+				<Point>
+					<coordinates>22.5668478252,49.11565436680001,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>34A</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Dział-Wetlina</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Zbiorowiska połoninowe na zboczach Małej Rawki</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+				<styleUrl>#MapRollOver30</styleUrl>
+				<Point>
+					<coordinates>22.5718970674,49.1111890543,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Placemark>
+			<name>45</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Procesy erozyjne na szlaku turystycznym</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5900051572,49.1218001794,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>28</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Bliźniczyska połoninowa</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5733333994,49.1026307887,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>44</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Ochrona aktywna na dawnych obszarach łąk i pastwisk</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5868957783,49.1212092926,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>15</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Młaczka śródleśna</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5928141104,49.10179711680001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>27</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Szczyt Wielkiej Rawki</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5748455557,49.1007543942,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>26</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wychodnie skalne na szczycie Wielkiej Rawki</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5770587861,49.0992121481,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>43</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Schronisko turystyczne</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.580859583,49.11693359339999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>42</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Borówczysko z goryczką trojeściową</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.580074415,49.1178990465,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>25</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Zbiorowiska połoninowe Wielkiej Rawki</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5779452236,49.09878189810001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>41</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Ziołorośla sitowia leśnego</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5787482979,49.1186343864,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>24</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wpływ turystyki na szatę połonin</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5790957588,49.0982233551,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>40</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Buczyna karpacka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5775486533,49.11878656999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>23</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Zarastające borówczysko</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5799559229,49.09868603870001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>9</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Sztuczny drzewostan sosnowy, tzw sośnina</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.6161497666,49.1056900075,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>39</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Formy popastwiskowe buków</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5761072393,49.11833612860001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>22</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Zarośla jarzębinowe z runem traworoślowym</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5811954971,49.0996831442,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>38</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Erozyjna działalność potoku górskiego</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5748732314,49.115552109,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>37</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Buczyna kwaśna z kosmatką olbrzymią</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.57693030960001,49.1134306559,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>36</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Buczyna ziołoroślowa</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5762277236,49.1122766598,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>14</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Buczyna kwaśna z trzcinnikiem leśnym</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5944123721,49.10195436680001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>35</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Zarośla jarzębinowe</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5753818564,49.11149167540001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>34</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Traworośle z trzcinnikiem owłosionym</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5743741377,49.1103627614,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>33</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Mała Rawka Ochrona muraw alpejskich</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5738893955,49.1096437809,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>21</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Górna granica lasu</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5816704307,49.1001867965,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Życie w martwych drzewach</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.6130647627,49.1055359215,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>32</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Sukcesja na połoninach</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5741457197,49.10901800750001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>46</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Przełęcz Wyżniańska Budowa fliszu karpackiego</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5910982276,49.12416288250001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Sztuczna świerczyna</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.6178507198,49.1056674293,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>20</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Polana śródleśna przy górnej granicy lasu</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5839379268,49.1010331989,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>31</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Traworośle ze śmiałkiem darniowym</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.57452819630001,49.1078963122,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>19</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Buczyna krzywulcowa z runem ziołoroślowym</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5856587197,49.1016927262,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>30</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Buki przy górnej granicy lasu</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5748414932,49.1044698434,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>29</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Retencyjna rola połonin</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5746347158,49.10336582779999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>11</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Buczyna karpacka - podzespół typowy</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.6063360752,49.10337081610001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>13</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Grzbiet skalny</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5978312432,49.1023583746,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>18</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Funkcje systemów korzeniowych</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5867264932,49.1018049996,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Buczyna trawiasto-turzycowa</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.6208447979,49.1054957887,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>17</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Kwaśna buczyna z kosmatką olbrzymią</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.587673751,49.1018102184,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>12</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Polana śródleśna z paprociami</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.602461583,49.10226906209999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>16</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[Przystanki ścieżek przyrodniczych<br><table border=1 style="border-collapse:collapse; border-color:#000000;" cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;"><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>SCIEŻKA</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Wielka Rawka</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>PRZYSTANEK</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">Buczyna karpacka paprociowa</font></td></tr><tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>ADRES</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"><a href="http://www.bdpn.pl/index.php?page=shop.product_details&flypage=shop.flypage&product_id=26&category_id=2&manufacturer_id=0&option=com_virtuemart&Itemid=1">          <img src="http://www.bdpn.pl/components/com_virtuemart/shop_image/product/9e73e23e0dba1f7281c5582fce159ed9.jpg" height="90"  border="0" alt="Ścieżka przyrodnicza &#039;Wielka Rawka&#039;" /></a></font></td></tr></table>]]></description>
+			<styleUrl>#MapRollOver11</styleUrl>
+			<Point>
+				<coordinates>22.5908310635,49.1020394684,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

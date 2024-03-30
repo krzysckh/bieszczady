@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ogniskowe.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>files/ogniskowa.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<Icon>
+				<href>files/ogniskowa.png</href>
+				<scale>0.5</scale>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ffff</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>ogniskowe</name>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#ogniskowe">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="Rodzaj">Ogniskowa</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>22.52433910644473,49.20202514107443,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#ogniskowe">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="Rodzaj">Ogniskowa</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>22.64684704285955,49.10562265308283,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#ogniskowe">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="Rodzaj">Ogniskowa</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>22.68091310523471,49.06500445202148,0</coordinates>
+			</Point>
+		</Placemark>
+		<Schema name="ogniskowe" id="ogniskowe">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="Id" type="int"></SimpleField>
+	<SimpleField name="Rodzaj" type="string"></SimpleField>
+</Schema>
+	</Folder>
+</Document>
+</kml>

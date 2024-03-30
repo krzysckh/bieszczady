@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>odpoczynkowe.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>files/odpoczynkowa.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>files/odpoczynkowa.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ffff</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>odpoczynkowe</name>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#odpoczynkowe">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="Rodzaj">Odpoczynkowa</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>22.68565041200261,49.06227298573947,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#odpoczynkowe">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="Rodzaj">Odpoczynkowa</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>22.64653420509824,49.10491489959814,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#odpoczynkowe">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="Rodzaj">Odpoczynkowa</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>22.64731472765104,49.10505209608463,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#odpoczynkowe">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="Rodzaj">Odpoczynkowa</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>22.6466599891398,49.10522927632702,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#odpoczynkowe">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="Rodzaj">Odpoczynkowa</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>22.59134483483739,49.12434164391133,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#odpoczynkowe">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="Rodzaj">Odpoczynkowa</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>22.84547288537917,49.07093055030245,0</coordinates>
+			</Point>
+		</Placemark>
+		<Schema name="odpoczynkowe" id="odpoczynkowe">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="Id" type="int"></SimpleField>
+	<SimpleField name="Rodzaj" type="string"></SimpleField>
+</Schema>
+	</Folder>
+</Document>
+</kml>

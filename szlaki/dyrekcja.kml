@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>dyrekcja.kml</name>
+	<StyleMap id="msn_homegardenbusiness">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_homegardenbusiness</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_homegardenbusiness</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_homegardenbusiness">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>files/dyrekcja.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_homegardenbusiness">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>files/dyrekcja.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Placemark>
+		<name>Dyrekcja BdPN</name>
+		<LookAt>
+			<longitude>22.6567483729393</longitude>
+			<latitude>49.10350697388081</latitude>
+			<altitude>0</altitude>
+			<heading>-0.3636739956546543</heading>
+			<tilt>0</tilt>
+			<range>665.8618985268174</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_homegardenbusiness</styleUrl>
+		<Point>
+			<altitudeMode>clampToGround</altitudeMode>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>22.65448759623016,49.10380560716151,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

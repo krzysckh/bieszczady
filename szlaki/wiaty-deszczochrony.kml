@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>deszczochrony.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>files/deszczochron.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>files/deszczochron.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>deszczochrony</name>
+		<open>1</open>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#deszczochrony">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="Rodzaj">Deszczochron</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>22.77044605561702,49.05280161611094,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#deszczochrony">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="Rodzaj">Deszczochron</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>22.72493393421544,49.05684273884241,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#deszczochrony">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="Rodzaj">Deszczochron</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>22.71328389075149,49.07408984913793,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#deszczochrony">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="Rodzaj">Deszczochron</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>22.68070565380015,49.09400536821297,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#deszczochrony">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="Rodzaj">Deszczochron</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>22.49791847390091,49.18319824882224,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#deszczochrony">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="Rodzaj">Deszczochron</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>22.58419946283215,49.13839344956439,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#deszczochrony">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="Rodzaj">Deszczochron</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>22.86510794314809,49.02892227272604,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#deszczochrony">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="Rodzaj">Deszczochron</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>22.78616461698119,49.15034021290144,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#deszczochrony">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="Rodzaj">Deszczochron</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>22.7112629980277,49.11798335197745,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#deszczochrony">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="Rodzaj">Deszczochron</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>22.61462256006483,49.10548270700842,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#deszczochrony">
+					<SimpleData name="Id">0</SimpleData>
+					<SimpleData name="Rodzaj">Deszczochron</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>22.63778770593053,49.11721379431135,0</coordinates>
+			</Point>
+		</Placemark>
+		<Schema name="deszczochrony" id="deszczochrony">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="Id" type="int"></SimpleField>
+	<SimpleField name="Rodzaj" type="string"></SimpleField>
+</Schema>
+	</Folder>
+</Document>
+</kml>

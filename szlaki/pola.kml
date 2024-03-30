@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>pola.kml</name>
+	<Style id="sh_ylw-pushpin4">
+		<IconStyle>
+			<color>ff00ff55</color>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>files/pole.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin3">
+		<IconStyle>
+			<color>ff00ff55</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>files/pole.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<LineStyle>
+			<width>0</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Pola namiotowe</name>
+		<open>1</open>
+		<Placemark>
+			<name>Oznaczenie miejsca bez nazwy</name>
+			<LookAt>
+				<longitude>22.6690860992196</longitude>
+				<latitude>49.14013043504853</latitude>
+				<altitude>0</altitude>
+				<heading>-0.03044580259149648</heading>
+				<tilt>0</tilt>
+				<range>952.3149251112443</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Point>
+				<altitudeMode>clampToGround</altitudeMode>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>22.66626599097667,49.14123190796257,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Oznaczenie miejsca bez nazwy</name>
+			<LookAt>
+				<longitude>22.57112548005425</longitude>
+				<latitude>49.14283504017239</latitude>
+				<altitude>0</altitude>
+				<heading>-0.07265872262251455</heading>
+				<tilt>0</tilt>
+				<range>914.9357178275442</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Point>
+				<altitudeMode>clampToGround</altitudeMode>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>22.56974645888784,49.14360378799136,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Oznaczenie miejsca bez nazwy</name>
+			<LookAt>
+				<longitude>22.52276333182389</longitude>
+				<latitude>49.1473186184376</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1092359970250346</heading>
+				<tilt>0</tilt>
+				<range>1034.903606173908</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Point>
+				<altitudeMode>clampToGround</altitudeMode>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>22.52174802333653,49.14836382573813,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
