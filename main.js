@@ -2,7 +2,13 @@ const ustrzyki = [49.0973, 22.6322];
 const map = L.map('map').setView(ustrzyki, 12);
 const optsel = document.getElementById("options");
 
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+const basemaps = {
+  "OpenStreetMap":    "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+  "mapa-turystyczna": "https://tile.mapa-turystyczna.pl/map/{z}/{x}/{y}.v4651.png",
+  "OpenTopoMap":      "http://tile.opentopomap.org/{z}/{x}/{y}.png",
+};
+
+L.tileLayer(basemaps['OpenStreetMap'], {
   maxZoom: 19,
   attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
@@ -12,10 +18,22 @@ function addopt(t, el, c) {
   const l = document.createElement("label");
   const br = document.createElement("br");
   const color = c || 'navyblue';
+  const humant = (t.split("/")[1] || t).replace(/[_\-]/g, " ").split(".")[0];
 
   cb.id = t;
   cb.name = t;
   cb.type = "checkbox";
+
+  const addpp = thing => {
+    if (!thing._popupHandlersAdded) {
+      thing.bindPopup(humant);
+    }
+  };
+
+  if (!el.addTo)
+    el.forEach(addpp);
+  else
+    addpp(el);
 
   const updatething = thing => {
     if (cb.checked) {
@@ -34,7 +52,7 @@ function addopt(t, el, c) {
   });
 
   l.htmlFor = t;
-  l.innerHTML = (t.split("/")[1] || t).replace(/[_\-]/g, " ").split(".")[0];
+  l.innerHTML = humant;
 
   optsel.appendChild(cb);
   optsel.appendChild(l);
